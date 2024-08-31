@@ -1,5 +1,5 @@
 const apikey = "7e6a5d33d2cd6aa7fc1e29d4eadea155";
-let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=berlin&appid=7e6a5d33d2cd6aa7fc1e29d4eadea155&units=metric`;
+let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=berlin&appid=${apikey}&units=metric`;
 const input = document.querySelector('input');
 const btn = document.querySelector('button');
 let city = document.querySelector('.city');
